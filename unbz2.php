@@ -1,6 +1,6 @@
 <?php
-$file=fopen("d:/static/navs/base.nav", "r");
-$file_size=filesize("d:/static/navs/base.nav");
+$file=fopen(__DIR__ . "/base.nav", "r");
+$file_size=filesize(__DIR__ . "/base.nav");
 
 Header("Content-type: application/octet-stream"); 
 Header("Accept-Ranges: bytes"); 
